@@ -1,6 +1,6 @@
 # php-fpm73
 
-Use socket, path setting
+Use socket, setting path
 ```
 conf/zz-docker.conf
 ```

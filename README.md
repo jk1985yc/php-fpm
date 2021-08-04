@@ -1,4 +1,4 @@
-# php-fpm73
+# php-fpm
 
 Use socket, setting path
 ```

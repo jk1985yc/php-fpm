@@ -2,6 +2,9 @@ FROM php:5.6.40-fpm
 #FROM php:5.6.34-fpm
 #FROM php:5.6.31-fpm-alpine
 
+#change repository
+RUN echo "deb http://archive.debian.org/debian stretch main" > /etc/apt/sources.list
+
 #Set unicode
 ENV LANG C.UTF-8
 
